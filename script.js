@@ -257,7 +257,7 @@ function skip5seconds() {
     song.currentTime = Math.min(song.duration, song.currentTime + 5);
 }
 
-// 🔹 chama a organização apenas após a função existir
+//  chama a organização apenas após a função existir
 organizePlaylistByLikes(); // organiza ao iniciar (se houver likes salvos)
 initializeSong();
 
@@ -285,6 +285,4 @@ skip5Sec.addEventListener('click', skip5seconds);
    // navigator.serviceWorker.register('./sw.js').then(() => {
    //   console.log('Service Worker registrado');
    // });}
-  
-
-      
+     
