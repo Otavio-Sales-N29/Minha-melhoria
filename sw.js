@@ -3,8 +3,8 @@ const assetsToCache = [
   './index.html',
   './style.css',
   './script.js',
-  './songs/FazerGolBomDemais.mp3',
-  './songs/FeioeFera.mp3',
+  './mysongs/FazerGolBomDemais.mp3',
+  './mysongs/FeioeFera.mp3',
   './images/FazerGolBomDemais.jpg',
   './images/FeioeFera.jpg'
   // adicione todas as músicas e capas
