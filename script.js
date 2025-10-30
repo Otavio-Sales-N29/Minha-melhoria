@@ -281,8 +281,8 @@ skip5Sec.addEventListener('click', skip5seconds);
 
 
 
-//if ('serviceWorker' in navigator) {
-   // navigator.serviceWorker.register('./sw.js').then(() => {
-   //   console.log('Service Worker registrado');
-   // });}
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').then(() => {
+      console.log('Service Worker registrado');
+     });}
   
